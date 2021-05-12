@@ -1,0 +1,58 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #dddd;
+}
+.header{}
+.header img{
+    width: 105px;
+    background: #dddd;
+}
+.header ul{
+    list-style: none;
+    text-align: right;
+}
+.header ul li{
+    display: inline-block;
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(4, 163, 124);
+    padding: 0 20px;
+    line-height: 55px;
+    font-size: 17px;
+}
+.header ul li a:hover{}
+
+
+/* banner */
+.banner {
+    background: url(../img/954087-messi.jpg) no-repeat;
+    background-size: 100%;
+    padding: 250px 0;
+}
+.banner h1{
+    color: #dddd;
+    font-size: 80px;
+}
+.about img{
+    width: 220px;
+}
+.about .strong{
+    font-size: 20px;
+}
+.about ul{
+    list-style: none;
+}
+.about ul li{
+    margin-top: 8px;
+}
+.footer {
+    background: rgb(23, 94, 247);
+    color: white;
+    padding: 12px 0;
+}
+.footer p{
+    margin-bottom: 0;
+}
